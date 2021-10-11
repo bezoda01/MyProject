@@ -72,6 +72,10 @@ class Methods
                 break;
             case "3":
                 //прочесть файл
+                for(String list : PathList)
+                {
+                    System.out.println(list);
+                }
                 break;
             case "4":
                 //записать текст
